@@ -4,14 +4,14 @@ import bannerimg from '../../assets/img/hero-image.png'
 
 const Banner = () => {
     return (
-        <div className='bg-[#131110] mt-16 pt-12 pb-12 flex lg:px-24 px-3 justify-between items-center text-white'>
+        <div className='bg-[#131110] mt-16 pt-12 pb-14 flex lg:px-28 px-3 justify-between items-center text-white'>
             <div className="space-y-14">
                 <h2 className="text-6xl space-y-6 font-bold">
                     Discover<br />
                     Most Suitable,<br />
                     Property<br />
                 </h2>
-                <p className="text-cl">
+                <p className="text-xl">
                     Find a variety of properties that suit you very easilty,<br />
                     Forget all difficulties in finding a residence for you
                 </p>
@@ -36,7 +36,7 @@ const Banner = () => {
                 </div>
             </div>
             <div>
-                <img src={bannerimg} className="w-[550px] h-[380px]" alt="bannerImg" />
+                <img src={bannerimg} className="w-[560px] h-[580px] rounded-t-[50%] border-12 border-x-[#f65b5b]  " alt="bannerImg" />
             </div>
         </div>
     );

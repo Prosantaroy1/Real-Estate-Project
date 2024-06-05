@@ -16,7 +16,7 @@ const Navber = () => {
 
     return (
         <>
-            <div className="lg:px-16 max-w-screen-2xl mx-auto   fixed top-0 left-0 right-0 px-3 py-3 bg-[#131110] text-white">
+            <div className="lg:px-24 max-w-screen-2xl mx-auto   fixed top-0 left-0 right-0 px-3 py-3 bg-[#131110] text-white">
                 {/**nav start */}
                 <nav className=" md:flex items-center justify-between">
                     {/**nav logo */}

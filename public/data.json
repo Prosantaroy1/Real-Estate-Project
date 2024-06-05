@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../public/img/r1.png",
+        "name": "Aliva Priva Jardin",
+        "price": "44,590",
+        "details": "Ruko Puri Ingkar Street, Ciracas, Serang, Bantendah Residence Block A7, Line"
+    },
+    {
+        "img": "../public/img/r2.png",
+        "name": "Aliva Priva Jardin",
+        "price": "38,490",
+        "details": "Ruko Puri Ingkar Street, Ciracas, Serang, Bantendah Residence Block A7, Line"
+    },
+    {
+        "img": "../public/img/r3.png",
+        "name": "Aliva Priva Jardin",
+        "price": "43,490",
+        "details": "Ruko Puri Ingkar Street, Ciracas, Serang, Bantendah Residence Block A7, Line"
+    },
+    {
+        "img": "../public/img/r2.png",
+        "name": "Aliva Priva Jardin",
+        "price": "61,490",
+        "details": "Ruko Puri Ingkar Street, Ciracas, Serang, Bantendah Residence Block A7, Line"
+    }
+]
