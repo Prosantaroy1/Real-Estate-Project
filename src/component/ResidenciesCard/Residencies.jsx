@@ -24,7 +24,7 @@ const Residencies = () => {
     console.log(cards);
 
     return (
-        <div className="pt-20 pb-8">
+        <div className="pt-20 pb-8 " id="residencies">
             <div className="space-y-3">
                 <h2 className="text-[#ffc011] font-bold text-3xl">Best Choices</h2>
                 <h1 className="text-4xl font-bold text-[#1f3e72]">Popular Residencies</h1>

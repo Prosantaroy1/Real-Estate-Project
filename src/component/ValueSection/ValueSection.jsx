@@ -5,9 +5,9 @@ import { AiFillCaretDown } from "react-icons/ai";
 
 const ValueSection = () => {
     return (
-        <div className='pt-16 pb-7 px-16 flex justify-between items-center'>
+        <div className='pt-16 pb-7 px-16 flex justify-between items-center' id='value'>
             <div>
-                <img src={valueImg} className="w-[500px] h-[550px] rounded-t-[50%] border-spacing-4 border border-x-[#686767]  " alt="bannerImg" />
+                <img src={valueImg} className="w-[500px] h-[550px] rounded-t-[50%] border-spacing-4 border-8 border-solid border-x-[#686767]  " alt="bannerImg" />
             </div>
             <div className=''>
                 <h3 className='text-[#ffc011] font-bold text-3xl'>Our Value</h3>
@@ -18,7 +18,7 @@ const ValueSection = () => {
                 </p>
                {/**accoding part */}
                 <div className='pt-14 flex gap-3 flex-col'>
-                    <div className="collapse  bg-[#ffff] border-2 rounded text-[#1f3e72]">
+                    <div className="collapse   bg-[#ffff] border-2 rounded text-[#1f3e72]">
                         <input type="radio" name="my-accordion-1" defaultChecked />
                         <div className="collapse-title text-xl  text-[#1f3e72] text-center font-bold flex justify-between">
                             <span><AiTwotoneSafetyCertificate className='w-8 h-8 p-2 text-[#1f3e72] bg-slate-200' /></span>

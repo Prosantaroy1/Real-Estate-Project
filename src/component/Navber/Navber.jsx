@@ -16,18 +16,18 @@ const Navber = () => {
 
     return (
         <>
-            <div className="lg:px-24 max-w-screen-2xl mx-auto   fixed top-0 left-0 right-0 px-3 py-3 bg-[#131110] text-white">
+            <div className="lg:px-24 max-w-screen-2xl mx-auto pt-8  top-0 left-0 right-0 px-3 py-3 bg-[#131110] text-white">
                 {/**nav start */}
                 <nav className=" md:flex items-center justify-between">
                     {/**nav logo */}
-                    <h3 className="text-3xl">Topxz</h3>
+                    <Link className="text-4xl font-bold hover:cursor-pointer" to="home" activeClass="active" spy={true}  smooth={true} offset={-50}   duration={500}>Topxz</Link>
                     {/**nav link */}
-                    <div className="md:flex hidden items-center   gap-8">
-                        <Link href="residencies">Residencies</Link>
-                        <Link href="value">Our Value</Link>
-                        <Link href="contactUs">Contact Us</Link>
-                        <Link href="getStart">Get Started</Link>
-                        <Link href="contact"><button className="btn bg-[#568eef] px-6  text-white">Contact</button></Link>
+                    <div className="md:flex hidden font-semibold text-xl items-center   gap-8">
+                        <Link to="residencies" className="hover:cursor-pointer" activeClass="active" spy={true}  smooth={true} offset={-50}   duration={500} >Residencies</Link>
+                        <Link to="value" className="hover:cursor-pointer" activeClass="active" spy={true}  smooth={true} offset={-50}   duration={500}>Our Value</Link>
+                        <Link to="contactus" className="hover:cursor-pointer" activeClass="active" spy={true}  smooth={true} offset={-50}   duration={500}>Contact Us</Link>
+                        <Link to="getstart" className="hover:cursor-pointer" activeClass="active" spy={true}  smooth={true} offset={-50}   duration={500}>Get Started</Link>
+                        <Link to="contact" className="hover:cursor-pointer" activeClass="active" spy={true}  smooth={true} offset={-50}   duration={500}><button className="btn bg-[#568eef] px-6  text-white">Contact</button></Link>
                     </div>
 
                 </nav>
